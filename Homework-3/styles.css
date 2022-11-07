@@ -1,0 +1,54 @@
+header h1 {
+    color: red;
+}
+
+nav a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#extended-shop-description {
+    border: 1px dotted black;
+    padding: 13px;
+    margin-bottom: 15px;
+
+}
+
+#extended-shop-description-image {
+    border-radius: 25px;
+}
+
+#asus-laptop,
+#acer-laptop,
+#hp-laptop {
+    border: 1px blue solid;
+    border-radius: 25px;
+    text-align: center;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
+#asus-laptop details,
+#acer-laptop details,
+#hp-laptop details {
+    text-align: left;
+    margin-top: 25px;
+}
+
+#contactUs {
+    border: 1px solid black;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-left: 250px;
+}
+
+#contactUs h2 {
+    text-decoration: underline blueviolet;
+}
+
+#workingHours,
+#contacts {
+    text-align: center;
+}
