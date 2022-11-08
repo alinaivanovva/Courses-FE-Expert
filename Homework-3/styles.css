@@ -11,7 +11,7 @@ nav a {
     border: 1px dotted black;
     padding: 13px;
     margin-bottom: 15px;
-
+    background-image: url('images/background.webp')
 }
 
 #extended-shop-description-image {
@@ -26,8 +26,21 @@ nav a {
     text-align: center;
     width: 300px;
     padding-top: 50px;
-    padding-bottom: 10px;
-    margin-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    margin: 25px;
+    background-image:url('images/laptop-bg.jpg');
+    background-size: contain;
+}
+
+#asus-laptop img,
+#acer-laptop img,
+#hp-laptop img {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding:15px;
+    width: 150px;
+    height: 150px;
 }
 
 #asus-laptop details,
@@ -40,7 +53,7 @@ nav a {
 #contactUs {
     border: 1px solid black;
     margin-top: 50px;
-    padding-top: 25px;
+    padding: 25px 25px;
     padding-left: 250px;
 }
 
